@@ -1,4 +1,6 @@
 import org.apache.tools.ant.taskdefs.condition.Os
+import java.io.FileInputStream
+import java.util.Properties
 
 plugins {
     id("com.android.library")
@@ -28,13 +30,29 @@ android {
     ndkVersion = ndk
 }
 
-private fun ndkPathBuilder():String {
-    val ndkpath: String by project
-    println("yash path is :" +android.ndkPath)
-    return if(Os.isFamily(Os.FAMILY_WINDOWS)){
-        "$ndkpath/ndk-build.cmd"
-    }else {
-        "$ndkpath/ndk-build"
+private fun ndkPathBuilder(): String {
+    var path: String? = android.ndkPath
+    if (path.isNullOrEmpty())
+        path = System.getenv("ANDROID_NDK_HOME") ?: System.getenv("NDK_HOME")
+
+    if (path.isNullOrEmpty()) {
+        val properties = Properties().apply {
+            val file = project.rootProject.file("local.properties")
+            if (file.exists()) {
+                load(FileInputStream(file))
+            }
+        }
+        path = properties.getProperty("ndk.dir")
+    }
+
+    if (path.isNullOrEmpty())
+        path
+            ?: throw GradleException("NDK path not found! Set 'android.ndkPath' in build.gradle.kts or ANDROID_NDK_HOME in your environment.")
+
+    return if (Os.isFamily(Os.FAMILY_WINDOWS)) {
+        "$path/ndk-build.cmd"
+    } else {
+        "$path/ndk-build"
     }
 }
 
@@ -48,11 +66,11 @@ tasks.register<Exec>("ndkClean") {
     commandLine(ndkPathBuilder(), "clean", "-C", file("src/main").absolutePath)
 }
 
-tasks.withType<JavaCompile>().configureEach{
+tasks.withType<JavaCompile>().configureEach {
     dependsOn("ndkBuild")
 }
 
-dependencies{
+dependencies {
     implementation(files("libs/common-4.1.1.aar"))
     implementation(libs.support.v4)
     implementation(libs.support.annotations)
