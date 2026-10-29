@@ -1,0 +1,1 @@
+[x86] SharedLibrary  : libjpeg-turbo1500.so

@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.serenegiant.usbcameratest.usbCameraTest-mergeDebugResources-3:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "D:\\GradleCache\\caches\\transforms-4\\40666a135d2a59557cf20fbb57a1addd\\transformed\\support-compat-27.1.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "D:\\GradleCache\\caches\\transforms-4\\596545a9f1a03780cb7868e533f99b94\\transformed\\appcompat-v7-27.1.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

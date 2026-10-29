@@ -1,0 +1,102 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml:23:1-41:12
+INJECTED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml:23:1-41:12
+INJECTED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml:23:1-41:12
+INJECTED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml:23:1-41:12
+MERGED from [:libuvccamera] C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:24:1-29:12
+MERGED from [com.android.support:support-v4:27.1.1] D:\GradleCache\caches\transforms-4\33c323785557157b75d44180720ec323\transformed\support-v4-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] D:\GradleCache\caches\transforms-4\0f8f03910884f48a9a188e0a6f32b4dc\transformed\support-media-compat-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.serenegiant:common:2.12.4] D:\GradleCache\caches\transforms-4\b15821a615612f0ecc266798dd935f3f\transformed\common-2.12.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:preference-v7:27.1.1] D:\GradleCache\caches\transforms-4\530048817dbefa174862bf047073c1c0\transformed\preference-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] D:\GradleCache\caches\transforms-4\596545a9f1a03780cb7868e533f99b94\transformed\appcompat-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] D:\GradleCache\caches\transforms-4\b4623f84341ca18be8c1fb753c88eea7\transformed\support-fragment-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] D:\GradleCache\caches\transforms-4\069c0db5eb44c72dc9e799a304cfba08\transformed\recyclerview-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] D:\GradleCache\caches\transforms-4\ed561638b01dfd65be4ffc2b1ce24fe8\transformed\animated-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] D:\GradleCache\caches\transforms-4\244455e6a0c2bd50533fd9fdbc447179\transformed\support-core-ui-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] D:\GradleCache\caches\transforms-4\7d375d40532a2b8609df40bea68729a4\transformed\support-core-utils-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] D:\GradleCache\caches\transforms-4\badf4eb4a0a69710e7e52b03e2762db4\transformed\support-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] D:\GradleCache\caches\transforms-4\40666a135d2a59557cf20fbb57a1addd\transformed\support-compat-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\GradleCache\caches\transforms-4\0976459de0f81513d06c9b50b3268ade\transformed\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] D:\GradleCache\caches\transforms-4\39e41bed0d20d3bd1c0b22addd27247d\transformed\livedata-core-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] D:\GradleCache\caches\transforms-4\cc788b14e728caf7cf464099911c96e5\transformed\viewmodel-1.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] D:\GradleCache\caches\transforms-4\4a5a797bf839c35c165c725ff21dcd73\transformed\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml:23:11-69
+application
+ADDED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml:26:5-39:19
+INJECTED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml:26:5-39:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml
+	android:label
+		ADDED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml:29:9-41
+	android:icon
+		ADDED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml:28:9-45
+	android:allowBackup
+		ADDED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml:27:9-35
+	android:theme
+		ADDED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml:30:9-46
+activity#com.serenegiant.usbcameratest.MainActivity
+ADDED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml:31:9-38:20
+	android:exported
+		ADDED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml:32:13-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml:34:13-37:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml:36:27-74
+uses-sdk
+INJECTED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml
+MERGED from [:libuvccamera] C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:27:5-44
+MERGED from [:libuvccamera] C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:27:5-44
+MERGED from [com.android.support:support-v4:27.1.1] D:\GradleCache\caches\transforms-4\33c323785557157b75d44180720ec323\transformed\support-v4-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] D:\GradleCache\caches\transforms-4\33c323785557157b75d44180720ec323\transformed\support-v4-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] D:\GradleCache\caches\transforms-4\0f8f03910884f48a9a188e0a6f32b4dc\transformed\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] D:\GradleCache\caches\transforms-4\0f8f03910884f48a9a188e0a6f32b4dc\transformed\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.serenegiant:common:2.12.4] D:\GradleCache\caches\transforms-4\b15821a615612f0ecc266798dd935f3f\transformed\common-2.12.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.serenegiant:common:2.12.4] D:\GradleCache\caches\transforms-4\b15821a615612f0ecc266798dd935f3f\transformed\common-2.12.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:preference-v7:27.1.1] D:\GradleCache\caches\transforms-4\530048817dbefa174862bf047073c1c0\transformed\preference-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:preference-v7:27.1.1] D:\GradleCache\caches\transforms-4\530048817dbefa174862bf047073c1c0\transformed\preference-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] D:\GradleCache\caches\transforms-4\596545a9f1a03780cb7868e533f99b94\transformed\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] D:\GradleCache\caches\transforms-4\596545a9f1a03780cb7868e533f99b94\transformed\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] D:\GradleCache\caches\transforms-4\b4623f84341ca18be8c1fb753c88eea7\transformed\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] D:\GradleCache\caches\transforms-4\b4623f84341ca18be8c1fb753c88eea7\transformed\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] D:\GradleCache\caches\transforms-4\069c0db5eb44c72dc9e799a304cfba08\transformed\recyclerview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] D:\GradleCache\caches\transforms-4\069c0db5eb44c72dc9e799a304cfba08\transformed\recyclerview-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] D:\GradleCache\caches\transforms-4\ed561638b01dfd65be4ffc2b1ce24fe8\transformed\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] D:\GradleCache\caches\transforms-4\ed561638b01dfd65be4ffc2b1ce24fe8\transformed\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] D:\GradleCache\caches\transforms-4\244455e6a0c2bd50533fd9fdbc447179\transformed\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] D:\GradleCache\caches\transforms-4\244455e6a0c2bd50533fd9fdbc447179\transformed\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] D:\GradleCache\caches\transforms-4\7d375d40532a2b8609df40bea68729a4\transformed\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] D:\GradleCache\caches\transforms-4\7d375d40532a2b8609df40bea68729a4\transformed\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] D:\GradleCache\caches\transforms-4\badf4eb4a0a69710e7e52b03e2762db4\transformed\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] D:\GradleCache\caches\transforms-4\badf4eb4a0a69710e7e52b03e2762db4\transformed\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] D:\GradleCache\caches\transforms-4\40666a135d2a59557cf20fbb57a1addd\transformed\support-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] D:\GradleCache\caches\transforms-4\40666a135d2a59557cf20fbb57a1addd\transformed\support-compat-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\GradleCache\caches\transforms-4\0976459de0f81513d06c9b50b3268ade\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\GradleCache\caches\transforms-4\0976459de0f81513d06c9b50b3268ade\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] D:\GradleCache\caches\transforms-4\39e41bed0d20d3bd1c0b22addd27247d\transformed\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] D:\GradleCache\caches\transforms-4\39e41bed0d20d3bd1c0b22addd27247d\transformed\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] D:\GradleCache\caches\transforms-4\cc788b14e728caf7cf464099911c96e5\transformed\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] D:\GradleCache\caches\transforms-4\cc788b14e728caf7cf464099911c96e5\transformed\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] D:\GradleCache\caches\transforms-4\4a5a797bf839c35c165c725ff21dcd73\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] D:\GradleCache\caches\transforms-4\4a5a797bf839c35c165c725ff21dcd73\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\usbCameraTest\src\main\AndroidManifest.xml

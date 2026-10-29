@@ -1,0 +1,103 @@
+ld.lld: error: relocation R_386_32 cannot be used against local symbol; recompile with -fPIC
+>>> defined in C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a(jidctint-sse2.o)
+>>> referenced by C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/libjpeg-turbo-1.5.0/simd/jidctint-sse2.asm
+>>>               jidctint-sse2.o:(.text+0x102) in archive C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a
+
+ld.lld: error: relocation R_386_32 cannot be used against local symbol; recompile with -fPIC
+>>> defined in C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a(jchuff-sse2.o)
+>>> referenced by C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/libjpeg-turbo-1.5.0/simd/jchuff-sse2.asm
+>>>               jchuff-sse2.o:(.text+0x65) in archive C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a
+
+ld.lld: error: relocation R_386_32 cannot be used against local symbol; recompile with -fPIC
+>>> defined in C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a(jidctred-sse2.o)
+>>> referenced by C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/libjpeg-turbo-1.5.0/simd/jidctred-sse2.asm
+>>>               jidctred-sse2.o:(.text+0xC9) in archive C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a
+
+ld.lld: error: relocation R_386_32 cannot be used against local symbol; recompile with -fPIC
+>>> defined in C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a(jfdctint-sse2.o)
+>>> referenced by C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/libjpeg-turbo-1.5.0/simd/jfdctint-sse2.asm
+>>>               jfdctint-sse2.o:(.text+0x181) in archive C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a
+
+ld.lld: error: relocation R_386_32 cannot be used against local symbol; recompile with -fPIC
+>>> defined in C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a(jfdctint-sse2.o)
+>>> referenced by C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/libjpeg-turbo-1.5.0/simd/jfdctint-sse2.asm
+>>>               jfdctint-sse2.o:(.text+0x189) in archive C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a
+
+ld.lld: error: relocation R_386_32 cannot be used against local symbol; recompile with -fPIC
+>>> defined in C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a(jidctflt-sse2.o)
+>>> referenced by C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/libjpeg-turbo-1.5.0/simd/jidctflt-sse2.asm
+>>>               jidctflt-sse2.o:(.text+0x13D) in archive C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a
+
+ld.lld: error: relocation R_386_32 cannot be used against local symbol; recompile with -fPIC
+>>> defined in C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a(jidctfst-sse2.o)
+>>> referenced by C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/libjpeg-turbo-1.5.0/simd/jidctfst-sse2.asm
+>>>               jidctfst-sse2.o:(.text+0xEE) in archive C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a
+
+ld.lld: error: relocation R_386_32 cannot be used against local symbol; recompile with -fPIC
+>>> defined in C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a(jdsample-sse2.o)
+>>> referenced by C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/libjpeg-turbo-1.5.0/simd/jdsample-sse2.asm
+>>>               jdsample-sse2.o:(.text+0xBC) in archive C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a
+
+ld.lld: error: relocation R_386_32 cannot be used against local symbol; recompile with -fPIC
+>>> defined in C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a(jdmerge-sse2.o)
+>>> referenced by C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/libjpeg-turbo-1.5.0/simd/jdmerge-sse2.asm
+>>>               jdmerge-sse2.o:(.text+0xA1) in archive C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a
+
+ld.lld: error: relocation R_386_32 cannot be used against local symbol; recompile with -fPIC
+>>> defined in C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a(jfdctfst-sse2.o)
+>>> referenced by C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/libjpeg-turbo-1.5.0/simd/jfdctfst-sse2.asm
+>>>               jfdctfst-sse2.o:(.text+0x152) in archive C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a
+
+ld.lld: error: relocation R_386_32 cannot be used against local symbol; recompile with -fPIC
+>>> defined in C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a(jdmerge-sse2.o)
+>>> referenced by C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/libjpeg-turbo-1.5.0/simd/jdmerge-sse2.asm
+>>>               jdmerge-sse2.o:(.text+0xA9) in archive C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a
+
+ld.lld: error: relocation R_386_32 cannot be used against local symbol; recompile with -fPIC
+>>> defined in C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a(jdmerge-sse2.o)
+>>> referenced by C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/libjpeg-turbo-1.5.0/simd/jdmerge-sse2.asm
+>>>               jdmerge-sse2.o:(.text+0xB1) in archive C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a
+
+ld.lld: error: relocation R_386_32 cannot be used against local symbol; recompile with -fPIC
+>>> defined in C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a(jdmerge-sse2.o)
+>>> referenced by C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/libjpeg-turbo-1.5.0/simd/jdmerge-sse2.asm
+>>>               jdmerge-sse2.o:(.text+0xB9) in archive C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a
+
+ld.lld: error: relocation R_386_32 cannot be used against local symbol; recompile with -fPIC
+>>> defined in C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a(jdmerge-sse2.o)
+>>> referenced by C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/libjpeg-turbo-1.5.0/simd/jdmerge-sse2.asm
+>>>               jdmerge-sse2.o:(.text+0xC1) in archive C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a
+
+ld.lld: error: relocation R_386_32 cannot be used against local symbol; recompile with -fPIC
+>>> defined in C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a(jdmerge-sse2.o)
+>>> referenced by C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/libjpeg-turbo-1.5.0/simd/jdmerge-sse2.asm
+>>>               jdmerge-sse2.o:(.text+0xC9) in archive C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a
+
+ld.lld: error: relocation R_386_32 cannot be used against local symbol; recompile with -fPIC
+>>> defined in C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a(jdmerge-sse2.o)
+>>> referenced by C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/libjpeg-turbo-1.5.0/simd/jdmerge-sse2.asm
+>>>               jdmerge-sse2.o:(.text+0xDB) in archive C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a
+
+ld.lld: error: relocation R_386_32 cannot be used against local symbol; recompile with -fPIC
+>>> defined in C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a(jdmerge-sse2.o)
+>>> referenced by C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/libjpeg-turbo-1.5.0/simd/jdmerge-sse2.asm
+>>>               jdmerge-sse2.o:(.text+0xE3) in archive C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a
+
+ld.lld: error: relocation R_386_32 cannot be used against local symbol; recompile with -fPIC
+>>> defined in C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a(jdmerge-sse2.o)
+>>> referenced by C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/libjpeg-turbo-1.5.0/simd/jdmerge-sse2.asm
+>>>               jdmerge-sse2.o:(.text+0x127) in archive C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a
+
+ld.lld: error: relocation R_386_32 cannot be used against local symbol; recompile with -fPIC
+>>> defined in C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a(jdmerge-sse2.o)
+>>> referenced by C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/libjpeg-turbo-1.5.0/simd/jdmerge-sse2.asm
+>>>               jdmerge-sse2.o:(.text+0x12F) in archive C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a
+
+ld.lld: error: relocation R_386_32 cannot be used against local symbol; recompile with -fPIC
+>>> defined in C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a(jdmerge-sse2.o)
+>>> referenced by C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/libjpeg-turbo-1.5.0/simd/jdmerge-sse2.asm
+>>>               jdmerge-sse2.o:(.text+0x13F) in archive C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500_static.a
+
+ld.lld: error: too many errors emitted, stopping now (use --error-limit=0 to see all errors)
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [C:/Users/yaraj/AppData/Local/Android/Sdk/ndk/27.0.12077973/build/../build/core/build-binary.mk:661: C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4n2n4v63/obj/local/x86/libjpeg-turbo1500.so] Error 1

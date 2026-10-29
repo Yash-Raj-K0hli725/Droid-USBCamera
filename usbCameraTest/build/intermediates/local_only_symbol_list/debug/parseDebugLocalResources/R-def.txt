@@ -1,0 +1,17 @@
+R_DEF: Internal format may change without notice
+local
+dimen activity_horizontal_margin
+dimen activity_vertical_margin
+dimen button_size
+dimen list_font_size
+drawable ic_launcher
+id UVCCameraTextureView1
+id camera_button
+id container
+layout activity_main
+string app_name
+style AppBaseTheme
+style AppTheme
+style Base.Theme.usbCam
+style apps_BaseTheme
+xml device_filter

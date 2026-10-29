@@ -1,0 +1,8 @@
+C:\Users\yaraj\OneDrive\Desktop\Test\mUSBAndroid\libuvccamera\build\intermediates\cxx\Debug\4oc3k6n1/obj/local/arm64-v8a/objs/UVCCamera/_onload.o: \
+  C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/UVCCamera/_onload.cpp \
+  C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/UVCCamera/_onload.h \
+  C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/UVCCamera/../utilbase.h \
+  C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/UVCCamera/../localdefines.h
+C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/UVCCamera/_onload.h:
+C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/UVCCamera/../utilbase.h:
+C:/Users/yaraj/OneDrive/Desktop/Test/mUSBAndroid/libuvccamera/src/main/jni/UVCCamera/../localdefines.h:
