@@ -1,0 +1,13 @@
+[versions]
+agp = "9.2.1"
+kotlin = "2.4.0"
+support = "28.0.0"
+app-compat="1.7.0"
+[libraries]
+support-v4 = { module = "com.android.support:support-v4", version.ref = "support" }
+support-annotations = { group = "com.android.support", name = "support-annotations", version.ref = "support" }
+androidx-app-compat = { module = "androidx.appcompat:appcompat", version.ref = "app-compat" }
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "agp" }

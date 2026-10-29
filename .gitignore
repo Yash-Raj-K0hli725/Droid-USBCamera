@@ -1,4 +1,79 @@
+.gradle/
+**/build/
+build/
+bin/
+gen/
+out/
+captures/
+
+local.properties
+.idea/
 *.iml
+*.iws
+*.ipr
+.navigation/
+
+*.hprof
+*.mprof
+
+*.jks
+*.keystore
+*.pepk
+*.p12
+*.pfx
+
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetStudio.xml
+
+# ======================================================================
+# Android NDK / Native / C++ Builds
+# ======================================================================
+**/.cxx/
+**/cmake_build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+**/obj/
+**/libs/
+.externalNativeBuild/
+
+*.o
+*.obj
+*.so
+*.a
+*.dylib
+*.dll
+
+# Native debug symbols
+*.sym
+
+# ======================================================================
+# OS & System Junk
+# ======================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+#--------------
 .gradle
 .idea
 .kotlin
@@ -8,10 +83,8 @@
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
-.DS_Store
 /build
 /captures
 /app/build/outputs
 .externalNativeBuild
 .cxx
-local.properties

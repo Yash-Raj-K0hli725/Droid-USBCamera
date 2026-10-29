@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.serenegiant.usbcameratest.usbCameraTest-mergeDebugResources-3:/values-w820dp-v13/values-w820dp-v13.xml",
+            "outputFile": "com.serenegiant.usbcameratest.usbCameraTest-mergeDebugResources-24:/values-w820dp-v13/values-w820dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\yaraj\\OneDrive\\Desktop\\Test\\mUSBAndroid\\usbCameraTest\\src\\main\\res\\values-w820dp\\dimens.xml",

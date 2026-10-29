@@ -49,6 +49,8 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.SparseArray;
 
+import androidx.core.content.ContextCompat;
+
 import com.serenegiant.utils.BuildCheck;
 import com.serenegiant.utils.HandlerThreadHandler;
 
@@ -179,12 +181,24 @@ public final class USBMonitor {
             if (DEBUG) Log.i(TAG, "register:");
             final Context context = mWeakContext.get();
             if (context != null) {
-                mPermissionIntent = PendingIntent.getBroadcast(context, 0, new Intent(ACTION_USB_PERMISSION),
-                        Build.VERSION.SDK_INT >= 31 ? PendingIntent.FLAG_IMMUTABLE : 0);
+                // 1. Create intent and set explicit package name to satisfy Android 14 requirements
+                final Intent intent = new Intent(ACTION_USB_PERMISSION);
+                intent.setPackage(context.getPackageName());
+
+                // 2. PendingIntent can now safely be FLAG_MUTABLE (required for UsbManager extras)
+                final int flags = Build.VERSION.SDK_INT >= 31 ? PendingIntent.FLAG_MUTABLE : 0;
+                mPermissionIntent = PendingIntent.getBroadcast(context, 0, intent, flags);
+
                 final IntentFilter filter = new IntentFilter(ACTION_USB_PERMISSION);
-                // ACTION_USB_DEVICE_ATTACHED never comes on some devices so it should not be added here
                 filter.addAction(UsbManager.ACTION_USB_DEVICE_DETACHED);
-                context.registerReceiver(mUsbReceiver, filter);
+
+                // 3. Register the receiver using ContextCompat for Android 14 compatibility
+                ContextCompat.registerReceiver(
+                        context,
+                        mUsbReceiver,
+                        filter,
+                        ContextCompat.RECEIVER_EXPORTED
+                );
             }
             // start connection check
             mDeviceCounts = 0;

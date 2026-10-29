@@ -1,33 +1,33 @@
 {
     "logs": [
         {
-            "outputFile": "com.serenegiant.usbcameratest.usbCameraTest-mergeDebugResources-3:/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "com.serenegiant.usbcameratest.usbCameraTest-mergeDebugResources-24:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "D:\\GradleCache\\caches\\transforms-4\\b15821a615612f0ecc266798dd935f3f\\transformed\\common-2.12.4\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,108,158",
-                        "endColumns": "52,49,49",
-                        "endOffsets": "103,153,203"
-                    },
-                    "to": {
-                        "startLines": "10,11,12",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "611,664,714",
-                        "endColumns": "52,49,49",
-                        "endOffsets": "659,709,759"
-                    }
-                },
-                {
-                    "source": "D:\\GradleCache\\caches\\transforms-4\\596545a9f1a03780cb7868e533f99b94\\transformed\\appcompat-v7-27.1.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Gradle Cache\\caches\\9.4.1\\transforms\\d21fa2504c8c23102b98f1772c335c53\\transformed\\appcompat-1.7.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
                         "startOffsets": "55,124,193,263,337,413,472,543",
                         "endColumns": "68,68,69,73,75,58,70,67",
                         "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                },
+                {
+                    "source": "C:\\Gradle Cache\\caches\\9.4.1\\transforms\\650fac84cda8fd3d2e4dfc21cda4e77e\\transformed\\jetified-common-4.1.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,131,206,282,356,409,459",
+                        "endColumns": "75,74,75,73,52,49,49",
+                        "endOffsets": "126,201,277,351,404,454,504"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "611,687,762,838,912,965,1015",
+                        "endColumns": "75,74,75,73,52,49,49",
+                        "endOffsets": "682,757,833,907,960,1010,1060"
                     }
                 }
             ]

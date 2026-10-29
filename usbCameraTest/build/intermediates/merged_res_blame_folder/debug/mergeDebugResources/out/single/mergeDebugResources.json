@@ -1,14 +1,14 @@
 [
     {
-        "merged": "com.serenegiant.usbcameratest.usbCameraTest-debug-5:/layout_activity_main.xml.flat",
-        "source": "com.serenegiant.usbcameratest.usbCameraTest-main-7:/layout/activity_main.xml"
+        "merged": "com.serenegiant.usbcameratest.usbCameraTest-debug-26:/drawable-hdpi_ic_launcher.png.flat",
+        "source": "com.serenegiant.usbcameratest.usbCameraTest-main-28:/drawable-hdpi/ic_launcher.png"
     },
     {
-        "merged": "com.serenegiant.usbcameratest.usbCameraTest-debug-5:/xml_device_filter.xml.flat",
-        "source": "com.serenegiant.usbcameratest.usbCameraTest-main-7:/xml/device_filter.xml"
+        "merged": "com.serenegiant.usbcameratest.usbCameraTest-debug-26:/xml_device_filter.xml.flat",
+        "source": "com.serenegiant.usbcameratest.usbCameraTest-main-28:/xml/device_filter.xml"
     },
     {
-        "merged": "com.serenegiant.usbcameratest.usbCameraTest-debug-5:/drawable-hdpi_ic_launcher.png.flat",
-        "source": "com.serenegiant.usbcameratest.usbCameraTest-main-7:/drawable-hdpi/ic_launcher.png"
+        "merged": "com.serenegiant.usbcameratest.usbCameraTest-debug-26:/layout_activity_main.xml.flat",
+        "source": "com.serenegiant.usbcameratest.usbCameraTest-main-28:/layout/activity_main.xml"
     }
 ]

@@ -24,6 +24,8 @@
 24<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 25    package="com.serenegiant.uvccamera" >
 26
-27    <uses-sdk android:minSdkVersion="21" />
+27    <uses-sdk android:minSdkVersion="24" />
+27-->INJECTED
+27-->INJECTED
 28
 29</manifest>
